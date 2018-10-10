@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<math.h>
 
 int main() {
 	int a, b, c, m;
@@ -12,8 +13,10 @@ int main() {
 		{
 		 if( b == ((a + c) /2.0 ))
 		 	printf("AP %d\n", c+(c-b));
-		 else
+		 else if(b==sqrt(a*c))
 		 	printf("GP %d\n", c*(c/b));
+		 else
+			printf("\n Neither AP nor GP");
 
 		 scanf("%d %d %d", &a, &b, &c);	 
 		}
