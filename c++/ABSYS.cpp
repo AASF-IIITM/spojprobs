@@ -5,7 +5,7 @@ int main() {
 	int a1 = 0, a2 = 0, a3 = 0;
 	int i = 0;
 	std::string str1, str2, str3;
-	char ch, ch2;
+	char ch, ch2,ch3;
 
 	//Amount of equations to be solved
 	std::cout << "Please enter the amount of equations to be solved" << std::endl;
