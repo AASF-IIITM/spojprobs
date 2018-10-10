@@ -17,6 +17,7 @@ int main() {
 
 		 scanf("%d %d %d", &a, &b, &c);	 
 		}
-	}
+         }
 	return 0;
 }
+:0
