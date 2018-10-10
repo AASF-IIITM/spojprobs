@@ -1,8 +1,8 @@
 #include <stdio.h>
-
-long numrev(long int x)
+#define ll long long
+ll numrev(ll x)
 {
-		int rem, rev=0;
+		ll rem, rev=0;
 		while(x > 0)
 		{
 			rem = x % 10;
@@ -14,8 +14,8 @@ long numrev(long int x)
 
 int main()
 {
-	int N;
-	long int a, b, i;
+	ll N;
+	ll a, b, i;
 	
 	scanf("%d", &N);
 	for(i = 0; i < N; i++)
