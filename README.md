@@ -2,4 +2,4 @@
 Solutions to spoj problems:
 Currently contains solutions implemented in C, C++, Python, Ruby, Java.
 
-Please read CONTRIBUTING.md for contribution guidelines.
+Please read CONTRIBUTING.md for contribution guidelines.\\bcnakjdna
